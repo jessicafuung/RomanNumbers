@@ -8,11 +8,7 @@ public class RomanNumbersTest {
 
     @Test
     void shouldConvert1ToI() {
-        assertEquals("I", toRoman(1));      //Forventet og faktisk input
-    }
-
-    private String toRoman(int i) {
-        return "I";
+        assertEquals("I", RomanNumbers.toRoman(1));      //Forventet og faktisk input
     }
 
 
