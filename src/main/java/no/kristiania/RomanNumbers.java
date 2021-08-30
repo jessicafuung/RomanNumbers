@@ -9,9 +9,13 @@ public class RomanNumbers {
     static String toRoman(int numbers) {
         String romanNumber = "";
 
-        for (int i = 0; i < numbers; i++) {
-            romanNumber += "I";
+        if (numbers == 4) {
+            return "IV";
+        } else {
+            for (int i = 0; i < numbers; i++) {
+                romanNumber += "I";
+            }
+            return romanNumber;
         }
-        return romanNumber;
     }
 }
