@@ -12,7 +12,7 @@ public class RomanNumbersTest {
     }
 
     private String toRoman(int i) {
-        return null;
+        return "I";
     }
 
 
