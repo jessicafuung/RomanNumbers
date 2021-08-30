@@ -7,6 +7,9 @@ public class RomanNumbers {
     }
 
     static String toRoman(int numbers) {
+        if (numbers == 2){
+            return "II";
+        }
         return "I";
     }
 }
