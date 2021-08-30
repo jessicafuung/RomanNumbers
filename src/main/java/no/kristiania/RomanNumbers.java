@@ -7,9 +7,11 @@ public class RomanNumbers {
     }
 
     static String toRoman(int numbers) {
-        if (numbers == 2){
-            return "II";
+        String romanNumber = "";
+
+        for (int i = 0; i < numbers; i++) {
+            romanNumber += "I";
         }
-        return "I";
+        return romanNumber;
     }
 }
